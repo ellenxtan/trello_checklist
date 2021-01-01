@@ -17,7 +17,7 @@
 git clone https://github.com/ellenxtan/trello_checklist.git
 cd trello_checklist
 ```
-3. python3 main.py -h
+2. python3 main.py -h
 ```
 usage: main.py [-h] [--folder_path FOLDER_PATH] [--name_path NAME_PATH]
                [--out_path OUT_PATH]
