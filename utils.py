@@ -10,7 +10,7 @@ def ReadJson(f):
     """
     Read the input JSON file.
     """
-    with open(f) as json_file: 
+    with open(f, encoding='UTF-8') as json_file: 
         json_d = json.load(json_file)
     return json_d
 
@@ -63,7 +63,7 @@ def CalScore(names_d, daily_d,
     return names_d
 
 def SaveTxt(names_d, out_path):
-    with open(out_path, 'w') as f:
+    with open(out_path, 'w', encoding='UTF-8') as f:
         for ppl in names_d:
             # print(ppl)
             nickname = names_d[ppl]["nickname"]
