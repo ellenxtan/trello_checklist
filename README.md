@@ -39,3 +39,7 @@ optional arguments:
                   --name_path names.json \
                   --out_path res.txt \
   ```
+
+# Things to Update
+1. Trello has pushed a major update recently, and the JSON export format has changed. Thus, the current main.py and utils.py are in need of an update.
+2. Currently, the counting mechanism still counts multiple text and image upload actions. It would be useful to fine tune the counting mechanism in future iterations to avoid repetitive counting of actions of user mistakes.
